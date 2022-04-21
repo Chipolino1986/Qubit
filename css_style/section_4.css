@@ -1,0 +1,70 @@
+/* font-family: 'Roboto', sans-serif; */
+
+.section_4 {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 537px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+.container_section_4_top {
+    max-width: 100%;
+    min-height: 95px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 46px;
+}
+.container_section_4_top p:first-child {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: calc(30px + (40 - 30) * ((100vw - 320px) / (1440 - 320)));
+    line-height: 45px;
+    color: black;
+    margin-bottom: 22px;
+}
+.container_section_4_top p:last-child {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+}
+/* -----------------------------container_bottom -------------------------------*/
+.container_section_4_bottom {
+    max-width: 100%;
+    min-height: 285px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.frame {
+    max-width: 320px;
+    width: 100%;
+    min-height: 194px;
+    height: 100%;
+    text-align: center;
+}
+.frame p:nth-child(2) {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    color: black;
+    margin-top: 42px;
+    margin-bottom: 16px;
+}
+.frame p:nth-child(3) {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: black;
+}

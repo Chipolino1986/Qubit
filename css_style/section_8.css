@@ -1,0 +1,104 @@
+/* font-family: 'Roboto', sans-serif; */
+
+.section_8 {
+    width: 100%;
+    min-height: 1000px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.title_sec_8 {
+    width: 100%;
+    min-height: 85px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.title_sec_8 p:first-child {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: calc(30px + (40 - 30) * ((100vw - 320px) / (1440 - 320)));
+    line-height: 45px;
+    color: black;
+    margin-bottom: 12px;
+}
+.title_sec_8 p:last-child {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+}
+.container_sec_8 {
+    max-width: 980px;
+    width: 100%;
+    min-height: 687px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ------------------------blocks----------------------------- */
+
+.block_sec_8 {
+    max-width: 460px;
+    width: 100%;
+    min-height: 199px;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #17002E;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 34px;
+    margin: 5px;
+}
+.title_block_sec_8 {
+    width: 100%;
+    min-height: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.title_block_sec_8 img {
+    width: calc(35px + (50 - 35) * ((100vw - 320px) / (1440 - 320)));
+}
+.title_block_sec_8 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1440 - 320)));
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+.block_sec_8 > p:nth-child(2) {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: calc(6px + (15 - 10) * ((100vw - 320px) / (1440 - 320)));
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 8px;
+    margin-top: 18px;
+}
+.block_sec_8 > a:nth-child(3) {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: calc(10px + (15 - 10) * ((100vw - 320px) / (1440 - 320)));
+    line-height: 15px;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    border-bottom: 2px solid white;
+}
+@media screen and (max-width: 971px) {
+    .container_sec_8 {
+        justify-content: center;
+    }
+}

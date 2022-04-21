@@ -1,0 +1,7 @@
+.main_wrapper {
+    /* max-width: 1440px; */
+    width: 100%;
+    margin: 0 auto;
+    /* padding-left: calc(10px + (20 - 10) * ((100vw - 320px) / (1440 - 320)));
+    padding-right: calc(10px + (20 - 10) * ((100vw - 320px) / (1440 - 320))); */
+}
